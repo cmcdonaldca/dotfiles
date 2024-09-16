@@ -25,3 +25,7 @@ alias -- -="cd -"
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local
 fi
+
+alias gs="git status"
+alias gb="git branch"
+alias gck="git checkout"
