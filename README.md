@@ -12,7 +12,7 @@ Set zsh as your login shell:
 
 Clone onto your laptop:
 
-    git clone git@github.com:thoughtbot/dotfiles.git ~/dotfiles
+    git clone git@github.com:cmcdonaldca/dotfiles.git ~/dotfiles
 
 (Or, [fork and keep your fork
 updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
@@ -28,7 +28,7 @@ Install the dotfiles:
 After the initial installation, you can run `rcup` without the one-time variable
 `RCRC` being set (`rcup` will symlink the repo's `rcrc` to `~/.rcrc` for future
 runs of `rcup`). [See
-example](https://github.com/thoughtbot/dotfiles/blob/master/rcrc).
+example](https://github.com/cmcdonaldca/dotfiles/blob/master/rcrc).
 
 This command will create symlinks for config files in your home directory.
 Setting the `RCRC` environment variable tells `rcup` to use standard
@@ -242,7 +242,7 @@ Shell aliases and scripts:
 
 ## Thanks
 
-Thank you, [contributors](https://github.com/thoughtbot/dotfiles/contributors)!
+Thank you, [contributors](https://github.com/cmcdonaldca/dotfiles/contributors)!
 Also, thank you to Corey Haines, Gary Bernhardt, and others for sharing your
 dotfiles and other shell scripts from which we derived inspiration for items
 in this project.
